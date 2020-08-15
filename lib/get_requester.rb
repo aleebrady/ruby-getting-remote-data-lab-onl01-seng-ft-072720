@@ -1,5 +1,9 @@
 class GetRequester 
   
+  def initialize(url)
+    @URL = url 
+  end 
+  
   URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
   
   
