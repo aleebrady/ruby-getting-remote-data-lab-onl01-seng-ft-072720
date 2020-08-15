@@ -21,5 +21,6 @@ end
     programs = JSON.prase(self.get_response_body)
     programs.collect do |programs|
       programs[]
+    end
   
 end
