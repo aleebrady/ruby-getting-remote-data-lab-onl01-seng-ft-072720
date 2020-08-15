@@ -22,5 +22,6 @@ end
     programs.collect do |programs|
       programs[]
     end
+  end
   
 end
