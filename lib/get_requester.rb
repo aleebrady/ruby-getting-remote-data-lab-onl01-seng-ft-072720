@@ -19,7 +19,7 @@ end
   
   def parse_json
     body = JSON.parse(get_response_body)
-    data
+    body
   end
   
 end
