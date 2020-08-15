@@ -17,7 +17,7 @@ class GetRequester
     response.body
 end
   
-  def parse_json #
+  def parse_json #  converts JSON returned from 'get_response_body' into Ruby data structures
     body = JSON.parse(get_response_body)
     body
   end
